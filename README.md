@@ -1,3 +1,4 @@
+
 # Sonata - Morning Chirps
 Welcome to Sonata, the aesthetic and soothing solution to your favorite Spotify playlists. Listen to your favorite songs and artists by logging in to your Spotify account and enjoying music within a customized web player with a minimilastic build. Test your music taste out by putting your knowledge to the front in the Guessing game feature. 
 
@@ -9,6 +10,9 @@ The player screen provides you with the ability to play and interact with your m
 
 ## Guess
 Interested in testing your music knowledge? Welcome to the Guess feature. The Guess feature allows you to choose from your connected playlists to begin the game. Hover and click over the playlist you would like to use as the library. Once selected, you will be prompted with 4 randomly picked songs within the selected playlist, along with information about the artist(s) who produced the piece. Click play on the player to the left and listen to 30 seconds of a randomly selected song from the playlist. One of the 4 songs on your screen will be the correct choice that matches with the audio preview that is being played. A correct guess will prompt you to the next set of songs with a congratulating message while an incorrect guess means keep guessing!
+
+![OIG1](https://github.com/user-attachments/assets/6eeb4ed1-6d80-488c-bb4b-2076a0a7a547)
+
 
 # Getting Started with Create React App
 
