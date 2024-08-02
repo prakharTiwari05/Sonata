@@ -1,0 +1,139 @@
+.left-guess-body {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    width: 100%;
+
+}
+.right-guess-body {
+    width: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.song-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    position: relative;
+    transition: 0.3s;
+    width: 14%;
+    height: 45%;
+    border-radius: 20px;
+    background-color: #030325;
+    border: 3px solid #000030;
+    padding: 1%;
+    margin-bottom: 2%;
+    background: rgb(57, 114, 255);
+    background: linear-gradient(90deg, rgba(14, 30, 110, 0.51) 0%, rgba(0, 0, 0, 0) 98%);
+    cursor: pointer;
+    animation: floatInFromLeft 0.5s ease-out forwards; /* Initial animation direction */
+}
+
+.song-card:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow:0px 0px 203px 0px rgba(202, 204, 243, 0.6);
+    -moz-box-shadow: 0px 0px 203px 0px rgba(234, 234, 234, 0.6);
+    box-shadow: 0px 0px 203px 0px rgba(103, 105, 211, 0.6);
+}
+
+.song-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.song-name, .song-artist {
+    text-align: center;
+}
+.song-name
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #c4d0e3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.feedback
+{
+
+    font-weight: bold;
+    margin-left: 43%;
+    margin-top: 100px;
+    font-size: 50px;
+    color: #c4d0e3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.correct
+{
+    color: #89ff89;
+    text-shadow: rgba(84, 255, 107, 0.9) 0px 0px 150px;
+
+    overflow: visible;
+
+}
+.incorrect
+{
+    color: #ffc2c2;
+    text-shadow: rgba(255,0,0,0.9) 0px 0px 150px;
+
+    overflow: visible;
+}
+@keyframes floatInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes floatInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes floatInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes floatInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

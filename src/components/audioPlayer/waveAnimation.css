@@ -1,0 +1,86 @@
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    --boxSize: 6px;
+    --boxSizeSide: 12px;
+    width: calc((var(--boxSize) + var(--boxSizeSide)) * 12);
+    background: #222;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.box {
+    transform: scale(0.8);
+    height: 100%;
+    width: var(--boxSize);
+    background: linear-gradient(40deg, #8dadec 20%, #C96850 100%) no-repeat;
+    border-radius: 18px;
+
+}
+
+.box.active {
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.box1 {
+    animation-name: quiet;
+}
+.box2 {
+    animation-name: normal;
+}
+.box3 {
+    animation-name: quiet;
+}
+.box4 {
+    animation-name: loud;
+}
+.box5 {
+    animation-name: quiet;
+}
+.box6 {
+    animation-name: normal;
+}
+.box7 {
+    animation-name: quiet;
+}
+
+@keyframes quiet {
+    25%{
+        transform: scale(.6)
+    }
+    50%{
+        transform: scale(.4)
+    }
+    75%{
+        transform: scale(.8)
+    }
+}
+
+@keyframes normal {
+    25%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(.4)
+    }
+    75%{
+        transform: scale(.6)
+    }
+}
+
+@keyframes loud {
+    25%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(.4)
+    }
+    75%{
+        transform: scale(1.2)
+    }
+}

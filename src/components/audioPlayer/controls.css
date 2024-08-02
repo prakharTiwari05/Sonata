@@ -1,0 +1,38 @@
+.controls-wrapper {
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.action-btn:hover {
+    transform: scale(1.1);
+}
+
+.playerButton {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.playerButton.active {
+    box-shadow: inset -4px -4px 10px #805c54, inset 4px 4px 10px 1px #675753;
+}
+
+.playerButton:hover {
+    transform: scale(1.1);
+}

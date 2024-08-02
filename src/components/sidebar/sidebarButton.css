@@ -1,0 +1,50 @@
+a
+{
+    text-decoration: none;
+}
+.button-body
+{
+
+    height: 70px;
+    width: 80px;
+    border-radius: 20px;
+    color: white;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px auto;
+    transition: 0.5s;
+
+}
+.button-body.active
+{
+    background-color: #272727;
+    transition: ease-in 0s;
+    margin: 50% auto;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 130%;
+
+
+
+
+}
+.button-title
+{
+    margin: 4px auto;
+    font-size: 80%;
+    transition: ease-out 0.1s;
+}
+
+
+.button-body:hover
+{
+
+    transition: ease-in 0.05s;
+    font-size: 140%;
+    font-weight: bold;
+    color: white;
+    opacity: 100%;
+}

@@ -1,0 +1,17 @@
+.screen-container
+{
+    width: calc(100% - 100px);
+    height: 100%;
+    border-radius: 30px;
+    opacity: 1;
+    background-image: url("/public/OIG1.jpg");
+    background-size: cover;
+
+
+
+
+}
+.flex
+{
+    display: flex;
+}

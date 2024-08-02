@@ -1,0 +1,29 @@
+.left-player-body
+{
+    width: 30%;
+    margin-left: 3%;
+    height: 100%;
+}
+.right-player-body
+{
+    width: 68%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/*SECONDARY COLOR*/
+/*.screen-container-player*/
+/*{*/
+/*    width: calc(100% - 100px);*/
+/*    height: 100%;*/
+/*    background-color: midnightblue;*/
+/*    border-radius: 30px;*/
+/*    background-color: #000040;*/
+/*    opacity: 1;*/
+/*    background-image:  repeating-radial-gradient( circle at center left, transparent 0, #000050 90px ), repeating-linear-gradient( #00034655, #000346 );*/
+/*}*/
+
+
